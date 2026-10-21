@@ -1,0 +1,217 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Naveen.Vasala\\e2etesttemplate\\lsp-common-project-templates\\lsp-e2e-testsuite-template\\lsp-e2e-testsuite\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9C1D31FB-1FF0-E69A-48FD-032F7139C9EA}|lsp-e2e-testsuite\\lsp-e2e-testsuite.csproj|c:\\users\\naveen.vasala\\e2etesttemplate\\lsp-common-project-templates\\lsp-e2e-testsuite-template\\lsp-e2e-testsuite\\lsp-e2e-testsuite\\constants\\appconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C1D31FB-1FF0-E69A-48FD-032F7139C9EA}|lsp-e2e-testsuite\\lsp-e2e-testsuite.csproj|solutionrelative:lsp-e2e-testsuite\\constants\\appconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C1D31FB-1FF0-E69A-48FD-032F7139C9EA}|lsp-e2e-testsuite\\lsp-e2e-testsuite.csproj|c:\\users\\naveen.vasala\\e2etesttemplate\\lsp-common-project-templates\\lsp-e2e-testsuite-template\\lsp-e2e-testsuite\\lsp-e2e-testsuite\\controllers\\apisourcetestscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C1D31FB-1FF0-E69A-48FD-032F7139C9EA}|lsp-e2e-testsuite\\lsp-e2e-testsuite.csproj|solutionrelative:lsp-e2e-testsuite\\controllers\\apisourcetestscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C1D31FB-1FF0-E69A-48FD-032F7139C9EA}|lsp-e2e-testsuite\\lsp-e2e-testsuite.csproj|c:\\users\\naveen.vasala\\e2etesttemplate\\lsp-common-project-templates\\lsp-e2e-testsuite-template\\lsp-e2e-testsuite\\lsp-e2e-testsuite\\tests\\apisourcetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C1D31FB-1FF0-E69A-48FD-032F7139C9EA}|lsp-e2e-testsuite\\lsp-e2e-testsuite.csproj|solutionrelative:lsp-e2e-testsuite\\tests\\apisourcetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C1D31FB-1FF0-E69A-48FD-032F7139C9EA}|lsp-e2e-testsuite\\lsp-e2e-testsuite.csproj|c:\\users\\naveen.vasala\\e2etesttemplate\\lsp-common-project-templates\\lsp-e2e-testsuite-template\\lsp-e2e-testsuite\\lsp-e2e-testsuite\\controllers\\e2emongocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C1D31FB-1FF0-E69A-48FD-032F7139C9EA}|lsp-e2e-testsuite\\lsp-e2e-testsuite.csproj|solutionrelative:lsp-e2e-testsuite\\controllers\\e2emongocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C1D31FB-1FF0-E69A-48FD-032F7139C9EA}|lsp-e2e-testsuite\\lsp-e2e-testsuite.csproj|c:\\users\\naveen.vasala\\e2etesttemplate\\lsp-common-project-templates\\lsp-e2e-testsuite-template\\lsp-e2e-testsuite\\lsp-e2e-testsuite\\helpers\\sectionconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C1D31FB-1FF0-E69A-48FD-032F7139C9EA}|lsp-e2e-testsuite\\lsp-e2e-testsuite.csproj|solutionrelative:lsp-e2e-testsuite\\helpers\\sectionconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C1D31FB-1FF0-E69A-48FD-032F7139C9EA}|lsp-e2e-testsuite\\lsp-e2e-testsuite.csproj|c:\\users\\naveen.vasala\\e2etesttemplate\\lsp-common-project-templates\\lsp-e2e-testsuite-template\\lsp-e2e-testsuite\\lsp-e2e-testsuite\\helpers\\e2etestsuitefixture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C1D31FB-1FF0-E69A-48FD-032F7139C9EA}|lsp-e2e-testsuite\\lsp-e2e-testsuite.csproj|solutionrelative:lsp-e2e-testsuite\\helpers\\e2etestsuitefixture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C1D31FB-1FF0-E69A-48FD-032F7139C9EA}|lsp-e2e-testsuite\\lsp-e2e-testsuite.csproj|c:\\users\\naveen.vasala\\e2etesttemplate\\lsp-common-project-templates\\lsp-e2e-testsuite-template\\lsp-e2e-testsuite\\lsp-e2e-testsuite\\scenarios\\apisourcetestscenarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C1D31FB-1FF0-E69A-48FD-032F7139C9EA}|lsp-e2e-testsuite\\lsp-e2e-testsuite.csproj|solutionrelative:lsp-e2e-testsuite\\scenarios\\apisourcetestscenarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C1D31FB-1FF0-E69A-48FD-032F7139C9EA}|lsp-e2e-testsuite\\lsp-e2e-testsuite.csproj|c:\\users\\naveen.vasala\\e2etesttemplate\\lsp-common-project-templates\\lsp-e2e-testsuite-template\\lsp-e2e-testsuite\\lsp-e2e-testsuite\\pipeline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C1D31FB-1FF0-E69A-48FD-032F7139C9EA}|lsp-e2e-testsuite\\lsp-e2e-testsuite.csproj|solutionrelative:lsp-e2e-testsuite\\pipeline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C1D31FB-1FF0-E69A-48FD-032F7139C9EA}|lsp-e2e-testsuite\\lsp-e2e-testsuite.csproj|c:\\users\\naveen.vasala\\e2etesttemplate\\lsp-common-project-templates\\lsp-e2e-testsuite-template\\lsp-e2e-testsuite\\lsp-e2e-testsuite\\usings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C1D31FB-1FF0-E69A-48FD-032F7139C9EA}|lsp-e2e-testsuite\\lsp-e2e-testsuite.csproj|solutionrelative:lsp-e2e-testsuite\\usings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C1D31FB-1FF0-E69A-48FD-032F7139C9EA}|lsp-e2e-testsuite\\lsp-e2e-testsuite.csproj|c:\\users\\naveen.vasala\\e2etesttemplate\\lsp-common-project-templates\\lsp-e2e-testsuite-template\\lsp-e2e-testsuite\\lsp-e2e-testsuite\\model\\e2esuiterunconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C1D31FB-1FF0-E69A-48FD-032F7139C9EA}|lsp-e2e-testsuite\\lsp-e2e-testsuite.csproj|solutionrelative:lsp-e2e-testsuite\\model\\e2esuiterunconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}|Solution Items{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}|C:\\Users\\Naveen.Vasala\\e2etesttemplate\\lsp-common-project-templates\\lsp-e2e-testsuite-template\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\Naveen.Vasala\\e2etesttemplate\\lsp-common-project-templates\\lsp-e2e-testsuite-template\\README.md",
+              "RelativeDocumentMoniker": "..\\README.md",
+              "ToolTip": "C:\\Users\\Naveen.Vasala\\e2etesttemplate\\lsp-common-project-templates\\lsp-e2e-testsuite-template\\README.md",
+              "RelativeToolTip": "..\\README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-03-16T10:48:44.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SectionConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Naveen.Vasala\\e2etesttemplate\\lsp-common-project-templates\\lsp-e2e-testsuite-template\\lsp-e2e-testsuite\\lsp-e2e-testsuite\\Helpers\\SectionConfig.cs",
+              "RelativeDocumentMoniker": "lsp-e2e-testsuite\\Helpers\\SectionConfig.cs",
+              "ToolTip": "C:\\Users\\Naveen.Vasala\\e2etesttemplate\\lsp-common-project-templates\\lsp-e2e-testsuite-template\\lsp-e2e-testsuite\\lsp-e2e-testsuite\\Helpers\\SectionConfig.cs",
+              "RelativeToolTip": "lsp-e2e-testsuite\\Helpers\\SectionConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T06:27:36.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApiSourceTests.cs",
+              "DocumentMoniker": "C:\\Users\\Naveen.Vasala\\e2etesttemplate\\lsp-common-project-templates\\lsp-e2e-testsuite-template\\lsp-e2e-testsuite\\lsp-e2e-testsuite\\Tests\\ApiSourceTests.cs",
+              "RelativeDocumentMoniker": "lsp-e2e-testsuite\\Tests\\ApiSourceTests.cs",
+              "ToolTip": "C:\\Users\\Naveen.Vasala\\e2etesttemplate\\lsp-common-project-templates\\lsp-e2e-testsuite-template\\lsp-e2e-testsuite\\lsp-e2e-testsuite\\Tests\\ApiSourceTests.cs",
+              "RelativeToolTip": "lsp-e2e-testsuite\\Tests\\ApiSourceTests.cs",
+              "ViewState": "AgIAAI0AAAAAAAAAAAAUwJQAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T04:44:04.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApiSourceTestsController.cs",
+              "DocumentMoniker": "C:\\Users\\Naveen.Vasala\\e2etesttemplate\\lsp-common-project-templates\\lsp-e2e-testsuite-template\\lsp-e2e-testsuite\\lsp-e2e-testsuite\\Controllers\\ApiSourceTestsController.cs",
+              "RelativeDocumentMoniker": "lsp-e2e-testsuite\\Controllers\\ApiSourceTestsController.cs",
+              "ToolTip": "C:\\Users\\Naveen.Vasala\\e2etesttemplate\\lsp-common-project-templates\\lsp-e2e-testsuite-template\\lsp-e2e-testsuite\\lsp-e2e-testsuite\\Controllers\\ApiSourceTestsController.cs",
+              "RelativeToolTip": "lsp-e2e-testsuite\\Controllers\\ApiSourceTestsController.cs",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAuwJMAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T04:18:55.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApiSourceTestScenarios.cs",
+              "DocumentMoniker": "C:\\Users\\Naveen.Vasala\\e2etesttemplate\\lsp-common-project-templates\\lsp-e2e-testsuite-template\\lsp-e2e-testsuite\\lsp-e2e-testsuite\\Scenarios\\ApiSourceTestScenarios.cs",
+              "RelativeDocumentMoniker": "lsp-e2e-testsuite\\Scenarios\\ApiSourceTestScenarios.cs",
+              "ToolTip": "C:\\Users\\Naveen.Vasala\\e2etesttemplate\\lsp-common-project-templates\\lsp-e2e-testsuite-template\\lsp-e2e-testsuite\\lsp-e2e-testsuite\\Scenarios\\ApiSourceTestScenarios.cs",
+              "RelativeToolTip": "lsp-e2e-testsuite\\Scenarios\\ApiSourceTestScenarios.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T04:13:27.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "E2ETestSuiteFixture.cs",
+              "DocumentMoniker": "C:\\Users\\Naveen.Vasala\\e2etesttemplate\\lsp-common-project-templates\\lsp-e2e-testsuite-template\\lsp-e2e-testsuite\\lsp-e2e-testsuite\\Helpers\\E2ETestSuiteFixture.cs",
+              "RelativeDocumentMoniker": "lsp-e2e-testsuite\\Helpers\\E2ETestSuiteFixture.cs",
+              "ToolTip": "C:\\Users\\Naveen.Vasala\\e2etesttemplate\\lsp-common-project-templates\\lsp-e2e-testsuite-template\\lsp-e2e-testsuite\\lsp-e2e-testsuite\\Helpers\\E2ETestSuiteFixture.cs",
+              "RelativeToolTip": "lsp-e2e-testsuite\\Helpers\\E2ETestSuiteFixture.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAA/wB8AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T18:39:06.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppConstants.cs",
+              "DocumentMoniker": "C:\\Users\\Naveen.Vasala\\e2etesttemplate\\lsp-common-project-templates\\lsp-e2e-testsuite-template\\lsp-e2e-testsuite\\lsp-e2e-testsuite\\Constants\\AppConstants.cs",
+              "RelativeDocumentMoniker": "lsp-e2e-testsuite\\Constants\\AppConstants.cs",
+              "ToolTip": "C:\\Users\\Naveen.Vasala\\e2etesttemplate\\lsp-common-project-templates\\lsp-e2e-testsuite-template\\lsp-e2e-testsuite\\lsp-e2e-testsuite\\Constants\\AppConstants.cs",
+              "RelativeToolTip": "lsp-e2e-testsuite\\Constants\\AppConstants.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAYwEMAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T18:32:34.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "E2EMongoController.cs",
+              "DocumentMoniker": "C:\\Users\\Naveen.Vasala\\e2etesttemplate\\lsp-common-project-templates\\lsp-e2e-testsuite-template\\lsp-e2e-testsuite\\lsp-e2e-testsuite\\Controllers\\E2EMongoController.cs",
+              "RelativeDocumentMoniker": "lsp-e2e-testsuite\\Controllers\\E2EMongoController.cs",
+              "ToolTip": "C:\\Users\\Naveen.Vasala\\e2etesttemplate\\lsp-common-project-templates\\lsp-e2e-testsuite-template\\lsp-e2e-testsuite\\lsp-e2e-testsuite\\Controllers\\E2EMongoController.cs",
+              "RelativeToolTip": "lsp-e2e-testsuite\\Controllers\\E2EMongoController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T18:57:37.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Usings.cs",
+              "DocumentMoniker": "C:\\Users\\Naveen.Vasala\\e2etesttemplate\\lsp-common-project-templates\\lsp-e2e-testsuite-template\\lsp-e2e-testsuite\\lsp-e2e-testsuite\\Usings.cs",
+              "RelativeDocumentMoniker": "lsp-e2e-testsuite\\Usings.cs",
+              "ToolTip": "C:\\Users\\Naveen.Vasala\\e2etesttemplate\\lsp-common-project-templates\\lsp-e2e-testsuite-template\\lsp-e2e-testsuite\\lsp-e2e-testsuite\\Usings.cs",
+              "RelativeToolTip": "lsp-e2e-testsuite\\Usings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T04:41:45.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Pipeline.cs",
+              "DocumentMoniker": "C:\\Users\\Naveen.Vasala\\e2etesttemplate\\lsp-common-project-templates\\lsp-e2e-testsuite-template\\lsp-e2e-testsuite\\lsp-e2e-testsuite\\Pipeline.cs",
+              "RelativeDocumentMoniker": "lsp-e2e-testsuite\\Pipeline.cs",
+              "ToolTip": "C:\\Users\\Naveen.Vasala\\e2etesttemplate\\lsp-common-project-templates\\lsp-e2e-testsuite-template\\lsp-e2e-testsuite\\lsp-e2e-testsuite\\Pipeline.cs",
+              "RelativeToolTip": "lsp-e2e-testsuite\\Pipeline.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T18:33:36.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "E2ESuiteRunConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Naveen.Vasala\\e2etesttemplate\\lsp-common-project-templates\\lsp-e2e-testsuite-template\\lsp-e2e-testsuite\\lsp-e2e-testsuite\\Model\\E2ESuiteRunConfig.cs",
+              "RelativeDocumentMoniker": "lsp-e2e-testsuite\\Model\\E2ESuiteRunConfig.cs",
+              "ToolTip": "C:\\Users\\Naveen.Vasala\\e2etesttemplate\\lsp-common-project-templates\\lsp-e2e-testsuite-template\\lsp-e2e-testsuite\\lsp-e2e-testsuite\\Model\\E2ESuiteRunConfig.cs",
+              "RelativeToolTip": "lsp-e2e-testsuite\\Model\\E2ESuiteRunConfig.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAYwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T18:35:31.198Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

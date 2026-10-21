@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Naveen Vasala",
+  "classifications": [
+    "E2E",
+    "TestSuite",
+    "Template",
+    "LSP"
+  ],
+  "tags": {
+    "language": "C#",
+    "type": "solution"
+  },
+  "identity": "LSP.E2E.TestSuite",
+  "name": "LSP E2E TestSuite Template",
+  "shortName": "lsp-e2e-testsuite",
+  "sourceName": "lsp-e2e-testsuite",
+  "preferNameDirectory": false,
+  "symbols": {
+    "templateVersion": {
+      "type": "parameter",
+      "datatype": "string",
+      "defaultValue": "8.0.1",
+      "description": "Version used to track the project templates used to create the solution.",
+      "replaces": "{TEMPLATE_VERSION}"
+    },
+    "repositoryName": {
+      "type": "parameter",
+      "datatype": "string",
+      "description": "Github repository that is going to home this component.",
+      "replaces": "{TARGET_REPOSITORY_NAME}"
+    },
+    "skipRestore": {
+      "type": "parameter",
+      "datatype": "bool",
+      "description": "If specified, skips the automatic restore of the project on create.",
+      "defaultValue": "false"
+    }
+  },
+  "sources": [
+    {
+      "modifiers": [
+        {
+          "exclude": [
+            ".vs/**",
+            ".template_config/**"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+
+name: lsp-e2e-test-suite-template-nonprod
+
+on:
+  # Nightly at 2:00 AM IST (20:30 UTC) — adjust if needed
+  schedule:
+    - cron: "30 20 * * *"
+    
+  pull_request:
+    types: [opened, reopened, synchronize]
+    branches: [master]
+
+jobs:
+  e2e-functest:
+    uses: sainsburys-tech/lsp-common-cicd-utilities/.github/workflows/lsp-run-tests.yaml@master
+    with:
+      env: tst
+      project_path: lsp-e2e-testsuite-template/lsp-e2e-testsuite
+      project_name: LSP.E2E.TestSuite
+      timeout_minutes: 300
+      env_variables: |
+        EMAIL_ENABLED: true

@@ -1,0 +1,141 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Naveen.Vasala\\CommonLibraries\\lsp-common-utility-libraries\\testing\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2D908450-8FCF-425D-8D00-506B364927C8}|LogisticsPlatform.Testing.Extensions\\LogisticsPlatform.Testing.Extensions.csproj|c:\\users\\naveen.vasala\\commonlibraries\\lsp-common-utility-libraries\\testing\\logisticsplatform.testing.extensions\\helpers\\apihelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D908450-8FCF-425D-8D00-506B364927C8}|LogisticsPlatform.Testing.Extensions\\LogisticsPlatform.Testing.Extensions.csproj|solutionrelative:logisticsplatform.testing.extensions\\helpers\\apihelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB922CA-BC31-4A36-A29C-EFBD720EE843}|Solution Items{FAB922CA-BC31-4A36-A29C-EFBD720EE843}|C:\\Users\\Naveen.Vasala\\CommonLibraries\\lsp-common-utility-libraries\\testing\\CHANGELOG.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{FAB922CA-BC31-4A36-A29C-EFBD720EE843}|Solution Items{FAB922CA-BC31-4A36-A29C-EFBD720EE843}|solutionrelative:CHANGELOG.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D908450-8FCF-425D-8D00-506B364927C8}|LogisticsPlatform.Testing.Extensions\\LogisticsPlatform.Testing.Extensions.csproj|c:\\users\\naveen.vasala\\commonlibraries\\lsp-common-utility-libraries\\testing\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{2D908450-8FCF-425D-8D00-506B364927C8}|LogisticsPlatform.Testing.Extensions\\LogisticsPlatform.Testing.Extensions.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D908450-8FCF-425D-8D00-506B364927C8}|LogisticsPlatform.Testing.Extensions\\LogisticsPlatform.Testing.Extensions.csproj|c:\\users\\naveen.vasala\\commonlibraries\\lsp-common-utility-libraries\\testing\\logisticsplatform.testing.extensions\\logisticsplatform.testing.extensions.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2D908450-8FCF-425D-8D00-506B364927C8}|LogisticsPlatform.Testing.Extensions\\LogisticsPlatform.Testing.Extensions.csproj|solutionrelative:logisticsplatform.testing.extensions\\logisticsplatform.testing.extensions.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D908450-8FCF-425D-8D00-506B364927C8}|LogisticsPlatform.Testing.Extensions\\LogisticsPlatform.Testing.Extensions.csproj|c:\\users\\naveen.vasala\\commonlibraries\\lsp-common-utility-libraries\\testing\\logisticsplatform.testing.extensions\\utils\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D908450-8FCF-425D-8D00-506B364927C8}|LogisticsPlatform.Testing.Extensions\\LogisticsPlatform.Testing.Extensions.csproj|solutionrelative:logisticsplatform.testing.extensions\\utils\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D908450-8FCF-425D-8D00-506B364927C8}|LogisticsPlatform.Testing.Extensions\\LogisticsPlatform.Testing.Extensions.csproj|c:\\users\\naveen.vasala\\commonlibraries\\lsp-common-utility-libraries\\testing\\logisticsplatform.testing.extensions\\helpers\\kafkaavrohelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D908450-8FCF-425D-8D00-506B364927C8}|LogisticsPlatform.Testing.Extensions\\LogisticsPlatform.Testing.Extensions.csproj|solutionrelative:logisticsplatform.testing.extensions\\helpers\\kafkaavrohelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LogisticsPlatform.Testing.Extensions.csproj",
+              "DocumentMoniker": "C:\\Users\\Naveen.Vasala\\CommonLibraries\\lsp-common-utility-libraries\\testing\\LogisticsPlatform.Testing.Extensions\\LogisticsPlatform.Testing.Extensions.csproj",
+              "RelativeDocumentMoniker": "LogisticsPlatform.Testing.Extensions\\LogisticsPlatform.Testing.Extensions.csproj",
+              "ToolTip": "C:\\Users\\Naveen.Vasala\\CommonLibraries\\lsp-common-utility-libraries\\testing\\LogisticsPlatform.Testing.Extensions\\LogisticsPlatform.Testing.Extensions.csproj",
+              "RelativeToolTip": "LogisticsPlatform.Testing.Extensions\\LogisticsPlatform.Testing.Extensions.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-06T06:15:20.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "KafkaAvroHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Naveen.Vasala\\CommonLibraries\\lsp-common-utility-libraries\\testing\\LogisticsPlatform.Testing.Extensions\\Helpers\\KafkaAvroHelper.cs",
+              "RelativeDocumentMoniker": "LogisticsPlatform.Testing.Extensions\\Helpers\\KafkaAvroHelper.cs",
+              "ToolTip": "C:\\Users\\Naveen.Vasala\\CommonLibraries\\lsp-common-utility-libraries\\testing\\LogisticsPlatform.Testing.Extensions\\Helpers\\KafkaAvroHelper.cs",
+              "RelativeToolTip": "LogisticsPlatform.Testing.Extensions\\Helpers\\KafkaAvroHelper.cs",
+              "ViewState": "AgIAADoBAAAAAAAAAAAswBMAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T12:24:28.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CHANGELOG.md",
+              "DocumentMoniker": "C:\\Users\\Naveen.Vasala\\CommonLibraries\\lsp-common-utility-libraries\\testing\\CHANGELOG.md",
+              "RelativeDocumentMoniker": "CHANGELOG.md",
+              "ToolTip": "C:\\Users\\Naveen.Vasala\\CommonLibraries\\lsp-common-utility-libraries\\testing\\CHANGELOG.md",
+              "RelativeToolTip": "CHANGELOG.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-04-20T04:43:39.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\Naveen.Vasala\\CommonLibraries\\lsp-common-utility-libraries\\testing\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\Users\\Naveen.Vasala\\CommonLibraries\\lsp-common-utility-libraries\\testing\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAAK4AAAAAAAAAAAAAAAoAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-04-20T04:43:18.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApiHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Naveen.Vasala\\CommonLibraries\\lsp-common-utility-libraries\\testing\\LogisticsPlatform.Testing.Extensions\\Helpers\\ApiHelper.cs",
+              "RelativeDocumentMoniker": "LogisticsPlatform.Testing.Extensions\\Helpers\\ApiHelper.cs",
+              "ToolTip": "C:\\Users\\Naveen.Vasala\\CommonLibraries\\lsp-common-utility-libraries\\testing\\LogisticsPlatform.Testing.Extensions\\Helpers\\ApiHelper.cs",
+              "RelativeToolTip": "LogisticsPlatform.Testing.Extensions\\Helpers\\ApiHelper.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCAAAAB0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T16:40:42.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BaseController.cs",
+              "DocumentMoniker": "C:\\Users\\Naveen.Vasala\\CommonLibraries\\lsp-common-utility-libraries\\testing\\LogisticsPlatform.Testing.Extensions\\Utils\\BaseController.cs",
+              "RelativeDocumentMoniker": "LogisticsPlatform.Testing.Extensions\\Utils\\BaseController.cs",
+              "ToolTip": "C:\\Users\\Naveen.Vasala\\CommonLibraries\\lsp-common-utility-libraries\\testing\\LogisticsPlatform.Testing.Extensions\\Utils\\BaseController.cs",
+              "RelativeToolTip": "LogisticsPlatform.Testing.Extensions\\Utils\\BaseController.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAmwD4AAACNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T07:24:25.282Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

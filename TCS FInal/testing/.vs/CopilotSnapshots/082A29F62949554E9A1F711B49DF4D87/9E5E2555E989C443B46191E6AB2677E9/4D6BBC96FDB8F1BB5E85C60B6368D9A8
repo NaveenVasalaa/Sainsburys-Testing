@@ -1,0 +1,142 @@
+﻿using LogisticsPlatform.Testing.Extensions.Models;
+using Microsoft.Identity.Client;
+using System.Net.Http.Headers;
+using System.Text;
+
+namespace LogisticsPlatform.Testing.Extensions.Helpers;
+
+public class ApiHelper(ApiOptions apiOptions)
+{
+    private readonly ApiOptions _apiOptions = apiOptions;
+    private readonly HttpClient _client = new();
+    
+    public async Task<HttpResponseMessage> PostMessageAsync(string url, string content, bool authRequired, Dictionary<string, string> headers = null)
+    {
+        await SetHeaders(authRequired, headers);
+
+        return await _client.PostAsync(url, new StringContent(content, Encoding.UTF8, "application/json"));
+    }
+
+    public async Task PostMessageAsync(string apiUrl, string inputPath, string actualPathWithPrefix = "", bool authRequired = true, Dictionary<string, string> headers = null, string contentType = null)
+    {
+        FileHelper.AppendLine(_apiOptions.LogFilePath, "Posting Messages to Api");
+        await SetHeaders(authRequired, headers, contentType);
+        int count = 1;
+        var inputFiles = FileHelper.GetAllFiles(inputPath);
+
+        foreach (var inputFile in inputFiles)
+        {
+            HttpResponseMessage response;
+            var detectedContentType = contentType ?? GetContentType(inputFile);
+
+            if (IsTextBasedContentType(detectedContentType))
+            {
+                var fileContent = File.ReadAllText(inputFile);
+                response = await _client.PostAsync(apiUrl, new StringContent(fileContent, Encoding.UTF8, detectedContentType));
+            }
+            else
+            {
+                var content = new MultipartFormDataContent();
+                var filebytes = File.ReadAllBytes(inputFile);
+                var fileContent = new ByteArrayContent(filebytes);
+                fileContent.Headers.ContentType = new MediaTypeHeaderValue(detectedContentType);
+                content.Add(fileContent, "file", Path.GetFileName(inputFile));
+                response = await _client.PostAsync(apiUrl, content);
+            }
+
+            if (response.IsSuccessStatusCode)
+            {
+                FileHelper.AppendLine(_apiOptions.LogFilePath, $"Received {(int)response.StatusCode} while posting message to API.");
+            }
+            else if (actualPathWithPrefix != null && response.StatusCode == System.Net.HttpStatusCode.BadRequest)
+            {
+                FileHelper.AppendLine(_apiOptions.LogFilePath, $"Received {(int)response.StatusCode} while posting message to API. Error: {await response.Content.ReadAsStringAsync()}");
+                FileHelper.WriteLine(actualPathWithPrefix + count++ + ".json" , await response.Content.ReadAsStringAsync());                
+            }
+            else
+            {
+                FileHelper.AppendLine(_apiOptions.LogFilePath, $"Received {(int)response.StatusCode} while posting message to API. Error: {await response.Content.ReadAsStringAsync()}");
+            }
+        }
+    }
+
+    public async Task GetMessageAsync(string apiUrl, string actualPath, string outputFilePrefix = "", bool authRequired = true, Dictionary<string, string> headers = null)
+    {
+        FileHelper.AppendLine(_apiOptions.LogFilePath, "Getting Message from an Api");
+
+        await SetHeaders(authRequired, headers);
+
+        var response = await _client.GetAsync(apiUrl);
+        if (response.IsSuccessStatusCode || response.StatusCode == System.Net.HttpStatusCode.BadRequest)
+        {
+            FileHelper.AppendLine(_apiOptions.LogFilePath, $"Received {(int)response.StatusCode} while getting message from API.");
+            FileHelper.WriteLine($"{actualPath}/{outputFilePrefix}.json", await response.Content.ReadAsStringAsync());
+        }        
+        else
+        {
+            FileHelper.AppendLine(_apiOptions.LogFilePath, $"Received {(int)response.StatusCode} while getting message from API. Error: {await response.Content.ReadAsStringAsync()}");
+        }
+    }
+
+    public async Task<HttpResponseMessage> GetMessageAsync(string apiUrl, bool authRequired, Dictionary<string, string> headers = null)
+    {
+        FileHelper.AppendLine(_apiOptions.LogFilePath, "Getting Message from an Api");
+
+        await SetHeaders(authRequired, headers);
+
+        return await _client.GetAsync(apiUrl);
+    }
+
+    private async Task SetHeaders(bool authRequired, Dictionary<string, string> headers, string acceptContentType = null)
+    {
+        _client.DefaultRequestHeaders.Accept.Clear();
+        _client.DefaultRequestHeaders.Clear();
+        _client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue(acceptContentType ?? "*/*"));
+
+        if (headers != null)
+        {
+            foreach (var header in headers)
+            {
+                _client.DefaultRequestHeaders.Add(header.Key, header.Value);
+            }
+        }
+
+        if (authRequired)
+            await SetAuthentication();
+    }
+
+    private async Task SetAuthentication()
+    {
+        IConfidentialClientApplication app = ConfidentialClientApplicationBuilder
+                .Create(_apiOptions.ApiClientId)
+                .WithClientSecret(_apiOptions.ApiClientSecret)
+                .WithAuthority(new Uri($"https://login.microsoftonline.com/{_apiOptions.ApiTenantId}/oauth2/v2.0/token"))
+                .Build();
+
+        AuthenticationResult result = await app.AcquireTokenForClient([_apiOptions.ApiResourceId + "/.default"])
+            .ExecuteAsync();
+
+        if (result != null)
+        {
+            _client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", result.AccessToken);
+        }
+    }
+
+    private static string GetContentType(string filePath)
+    {
+        var extension = Path.GetExtension(filePath).ToLowerInvariant();
+        return extension switch
+        {
+            ".json" => "application/json",
+            ".xml" => "application/xml",
+            ".csv" => "text/csv",
+            ".txt" => "text/plain",
+            ".zip" => "application/zip",
+            ".xlsx" => "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            ".xls" => "application/vnd.ms-excel",
+            ".docx" => "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+            ".doc" => "application/msword",
+            _ => "application/octet-stream"
+        };
+    }
+}

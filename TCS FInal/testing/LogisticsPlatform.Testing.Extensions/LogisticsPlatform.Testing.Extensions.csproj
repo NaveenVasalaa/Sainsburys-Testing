@@ -1,0 +1,44 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>disable</Nullable>
+		<RootNamespace>LogisticsPlatform.Testing.Extensions</RootNamespace>
+		<Company>Sainsbury's</Company>
+		<Description>Logistics Platform Library for Testing extensions.</Description>
+		<Product>LogisticsPlatform.Testing.Extensions</Product>
+		<PackageTags>LogisticsPlatform</PackageTags>
+		<PackageProjectUrl>https://github.com/sainsburys-tech/lsp-common-utility-libraries</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/sainsburys-tech/lsp-common-utility-libraries.git</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<Authors>Manoj,Theepan,Naveen,Neelakandan</Authors>
+		<Version>8.2.17</Version>
+		<IsPackable>true</IsPackable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="..\README.md" Pack="true" PackagePath="\" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="ClosedXML" Version="0.105.0" />
+		<PackageReference Include="CsvHelper" Version="33.1.0" />
+		<PackageReference Include="ExcelDataReader" Version="3.9.0" />
+		<PackageReference Include="ExcelDataReader.DataSet" Version="3.9.0" />
+		<PackageReference Include="LogisticsPlatform.Common.Extensions" Version="1.2.62" />
+		<PackageReference Include="LogisticsPlatform.AutoCompare.Component" Version="1.0.0" />
+		<PackageReference Include="Microsoft.NET.Test.Sdk" Version="18.8.1" />
+		<PackageReference Include="IBMXMSDotnetClient" Version="9.4.5.1" />
+		<PackageReference Include="MassTransit.Azure.ServiceBus.Core" Version="9.1.2" />		
+		<PackageReference Include="Oracle.ManagedDataAccess.Core" Version="23.26.200" />		
+		<PackageReference Include="xunit.v3" Version="3.2.2" />
+		<PackageReference Include="coverlet.collector" Version="10.0.1">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+	</ItemGroup>
+
+</Project>

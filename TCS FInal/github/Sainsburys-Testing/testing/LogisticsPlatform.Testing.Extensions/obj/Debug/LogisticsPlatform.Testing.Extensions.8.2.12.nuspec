@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>LogisticsPlatform.Testing.Extensions</id>
+    <version>8.2.12</version>
+    <authors>Manoj,Theepan,Naveen</authors>
+    <readme>README.md</readme>
+    <projectUrl>https://github.com/sainsburys-tech/lsp-common-utility-libraries</projectUrl>
+    <description>Logistics Platform Library for Testing extensions.</description>
+    <tags>LogisticsPlatform</tags>
+    <repository type="git" url="https://github.com/sainsburys-tech/lsp-common-utility-libraries.git" commit="12cd65e00a034b1d9a09cb3dcef1dd8a887a3f51" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="ClosedXML" version="0.105.0" exclude="Build,Analyzers" />
+        <dependency id="CsvHelper" version="33.1.0" exclude="Build,Analyzers" />
+        <dependency id="ExcelDataReader" version="3.8.0" exclude="Build,Analyzers" />
+        <dependency id="ExcelDataReader.DataSet" version="3.8.0" exclude="Build,Analyzers" />
+        <dependency id="IBMXMSDotnetClient" version="9.4.5" exclude="Build,Analyzers" />
+        <dependency id="LogisticsPlatform.AutoCompare.Component" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="LogisticsPlatform.Common.Extensions" version="1.2.61" exclude="Build,Analyzers" />
+        <dependency id="MassTransit.Azure.ServiceBus.Core" version="9.1.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.NET.Test.Sdk" version="18.4.0" exclude="Build,Analyzers" />
+        <dependency id="NPOI" version="2.7.6" exclude="Build,Analyzers" />
+        <dependency id="Oracle.ManagedDataAccess.Core" version="23.26.200" exclude="Build,Analyzers" />
+        <dependency id="System.Security.Cryptography.Xml" version="10.0.7" exclude="Build,Analyzers" />
+        <dependency id="xunit.v3" version="3.2.2" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <contentFiles>
+      <files include="any/net8.0/testhost.exe" buildAction="Content" />
+      <files include="any/net8.0/testhost.dll" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="C:\Users\Naveen.Vasala\CommonLibraries\lsp-common-utility-libraries\testing\LogisticsPlatform.Testing.Extensions\bin\Debug\net8.0\LogisticsPlatform.Testing.Extensions.runtimeconfig.json" target="lib\net8.0\LogisticsPlatform.Testing.Extensions.runtimeconfig.json" />
+    <file src="C:\Users\Naveen.Vasala\CommonLibraries\lsp-common-utility-libraries\testing\LogisticsPlatform.Testing.Extensions\bin\Debug\net8.0\LogisticsPlatform.Testing.Extensions.dll" target="lib\net8.0\LogisticsPlatform.Testing.Extensions.dll" />
+    <file src="C:\Users\Naveen.Vasala\.nuget\packages\microsoft.testplatform.testhost\18.4.0\build\net8.0\x64\testhost.exe" target="content\testhost.exe" />
+    <file src="C:\Users\Naveen.Vasala\.nuget\packages\microsoft.testplatform.testhost\18.4.0\build\net8.0\x64\testhost.exe" target="contentFiles\any\net8.0\testhost.exe" />
+    <file src="C:\Users\Naveen.Vasala\.nuget\packages\microsoft.testplatform.testhost\18.4.0\build\net8.0\x64\testhost.dll" target="content\testhost.dll" />
+    <file src="C:\Users\Naveen.Vasala\.nuget\packages\microsoft.testplatform.testhost\18.4.0\build\net8.0\x64\testhost.dll" target="contentFiles\any\net8.0\testhost.dll" />
+    <file src="C:\Users\Naveen.Vasala\CommonLibraries\lsp-common-utility-libraries\testing\README.md" target="\README.md" />
+  </files>
+</package>
